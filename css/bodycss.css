@@ -1,0 +1,302 @@
+body{
+	margin: 0;
+	font-family: Verdana, Geneva, sans-serif;	
+	height:100%;
+	min-width:1024px;
+}
+
+#header {
+	min-width:1024px;
+	font-size: 14px;
+	background-color: #0099FF;
+	height: 200px;
+	width: 92%;
+	padding-top: 10px;
+	padding-right: 4%;
+	padding-bottom: 0px;
+	padding-left: 4%;
+	position:absolute;
+	z-index:1;
+}
+#caption
+{
+	text-align:center;
+	padding-top:30px;
+	vertical-align:top; 
+	display:inline-block;
+	text-shadow:1px 1px 10px rgba(36,27,29,0.8);
+	font-weight:bold;
+	color:#FFFFFF;
+	letter-spacing:2pt;
+	word-spacing:-2pt;
+	font-size:20px;
+	text-align:left;
+	font-family:comic sans, comic sans ms, cursive, verdana, arial, sans-serif;
+	line-height:2;
+}
+
+#bodymask {
+	min-height:100%;
+	font-size: 14px;
+	background-color: #FCFCFC;
+	
+	
+	width: 100%;
+	padding-top: 50px;
+	text-align:justify;
+	
+	margin-top:200px;
+	position:absolute;
+	z-index:-1;	
+}
+#fullbody{
+		margin-left:4%;
+	margin-bottom::80px;
+
+	
+	padding-top:30px;
+	padding-bottom:60px;
+	height: auto;
+	width: 92%;
+	float:left;
+	word-spacing: 5px;
+	line-height:30px;
+
+}
+#mainbody{
+	margin-left:4%;
+	margin-bottom::80px;
+
+	
+	padding-top:30px;
+	padding-bottom:60px;
+	height: auto;
+	width: 65%;
+	float:left;
+	word-spacing: 5px;
+	line-height:30px;
+}
+
+#rightbar{
+	margin-top:30px;
+	margin-right:4%;
+	margin-left:1%;
+	margin-bottom:80px;
+	background-color:rgba(227,227,227,0.2);
+	height: auto;
+
+	width: 22%;
+	float:right;
+	box-shadow: 0px 5px 5px #7E7E7E;
+	border-radius:7px;
+	
+	padding-left:2%;
+	padding-right:2%;
+	padding-bottom:30px;
+
+ }
+	
+#rightbarbox{
+	margin-top:30px;
+	padding-bottom:30px;
+	height:auto;
+	color:#333;
+	border-bottom:thin;
+	border-bottom-style:dotted;
+	border-bottom-color:#000;
+		
+		
+}
+#rightbarboxlast{
+	margin-top:30px;
+	padding-bottom:30px;
+	height:auto;
+	color:#333;
+		
+		
+}
+#usersettings {
+	font-size: x-small;
+	font-weight: normal;
+	height: 20px;
+	width: auto;
+	float: right;
+	color:#4f4f4f;
+}
+h2{
+	color:#8080FF;
+	font-size:15px;
+	font-weight:600;
+	letter-spacing:1px;
+
+}
+#footer {
+	width:96%;
+	height:60px;
+	bottom:0;
+	position:absolute;
+	background-color: #0099FF;
+	padding-left:4%;
+	
+	vertical-align:text-bottom;
+	
+
+}
+#footer span {
+   position: absolute;
+   bottom: 0;
+	float:right;
+}
+
+#menu {
+	
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	margin-left: 0%;
+	height: 50px;
+	width: auto;
+	z-index:-1;
+	
+}
+
+.menu{
+	width: auto; 
+	background-color: #FCFCFC;
+	
+	height:50px;
+	box-shadow: 0px 5px 5px #7E7E7E;
+	border-radius:7px;
+	padding-left:30px;
+	} 
+
+.menu ul,.menu ul ul.sub-menu {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.menu ul li,.menu ul ul.sub-menu li{
+	display: inline-block;
+	list-style-type: none;
+} 
+
+.menu ul li a, .menu ul ul.sub-menu li a{
+	display: inline-block;
+	float: left; 
+	text-decoration: none; 
+	color: #8080FF; 
+	height:28px;
+	width:auto;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:7px;
+	padding-right:11px;
+	padding-left:11px;
+}
+.menu ul li{
+	position:relative;
+}
+.menu ul li a span,.menu ul ul.sub-menu li a span{
+	padding-left:10px;
+	padding-right:10px;
+}
+.menu ul li a:visited, ,.menu ul ul.sub-menu li a:visited{
+	color: #8080FF;
+	text-decoration: none;
+}
+
+.menu ul li ul.sub-menu{
+	display:none;
+	position:absolute;
+    top: 50px;
+    left: 0;
+	width:200px;
+	background-color: #FCFCFC;
+	text-align:center;
+}
+.menu ul li:hover ul.sub-menu{
+	display:block;
+}
+.menu ul li a:hover, .menu ul li .current{
+	color: #000000;
+	background-color:#E6E6FF;
+	width:auto;	
+	text-align:center;
+}
+.menu ul li ul.sub-menu li a:hover,.menu ul li ul.sub-menu li .current{
+	color: #000000;
+	background-color:#E6E6FF;
+	width:200px;	
+	text-align:center;
+}
+ 
+#textbox { 
+   	border: 6px solid #F7F9FA; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	-moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset; 
+	-webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95A2A7 inset; 
+	box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95A2A7 inset; 
+	height:30px; 
+	width: 100%; 
+	display: block; 
+} 
+
+#dropbox { 
+   	border: 6px solid #F7F9FA; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	-moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95a2a7 inset; 
+	-webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95A2A7 inset; 
+	box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95A2A7 inset; 
+	height:40px; 
+	width: 280px; 
+	display: block;
+	
+}
+#button1 {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:39px;
+	line-height:39px;
+	width:175px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+}
+#button1:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+#button1:active {
+	position:relative;
+	top:1px;
+}
